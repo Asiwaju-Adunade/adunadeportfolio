@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <div className="mx-20">
+      <div className="mx-10">
         <h2 className="font-semibold text-2xl "> About Me -</h2>
         <h1 className="text-2xl ">
           Hi, I'm <span className="text-pink-500"> Adunade Asiwaju, </span> a

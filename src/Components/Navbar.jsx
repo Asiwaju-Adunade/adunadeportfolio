@@ -8,7 +8,7 @@ function Navbar() {
     { name: "Contact", href: "/Contact" },
   ];
   
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
   return (
     <>
       <div className=" flex gap-10 bg-gray-600 text-black my-5">

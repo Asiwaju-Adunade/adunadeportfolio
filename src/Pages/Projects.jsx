@@ -21,7 +21,7 @@ function Projects() {
                  <li> CSS</li>
                  <li> Tailwind CSS</li>
                  <li> JavaScript</li> <br/>
-                 <button className=" p-2 rounded hover:bg-amber-300  text-black bg-blue-300  cursor-pointer"><a href="https://adunadecalculator.netlify.app/">View project</a></button>
+                 <button className=" p-2 rounded hover:bg-amber-300  text-black bg-blue-300  cursor-pointer"><a href="https://aduncalculatorapp.netlify.app/">View project</a></button>
             </div>  
                  {/* CALCULATOR IMAGE */}
             <div>
@@ -43,7 +43,7 @@ function Projects() {
                   <li>HTML</li>
                  <li> CSS</li>
                  <li> Tailwind CSS</li><br/>
-                 <button className=" p-2 rounded hover:bg-amber-300  text-black bg-blue-300  cursor-pointer"><a href="https://adunadeclonedwebsite.netlify.app/">View project</a></button>
+                 <button className=" p-2 rounded hover:bg-amber-300  text-black bg-blue-300  cursor-pointer"><a href="https://adeclonedwebsite.netlify.app/">View project</a></button>
             </div>
                  <hr className="border-2 mt-5 border-red-500  mb-5" />
                 
@@ -87,7 +87,7 @@ function Projects() {
                  <li> Tailwind CSS</li>
                  <li> JavaScript</li>
                  <li> Open Weather API</li><br/>
-                 <button className=" p-2 rounded hover:bg-amber-300  text-black bg-blue-300  cursor-pointer"><a href="https://adunadeweatherapp.netlify.app/">View project</a></button>
+                 <button className=" p-2 rounded hover:bg-amber-300  text-black bg-blue-300  cursor-pointer"><a href="https://adunweatherapp.netlify.app/">View project</a></button>
             </div>
             {/* WEATHER APP IMAGE */}
             <div>
@@ -111,7 +111,7 @@ function Projects() {
                 <li> CSS</li>
                 <li> Tailwind CSS</li>
                 <li> React</li><br/>
-                 <button className=" p-2 rounded hover:bg-amber-300  text-black bg-blue-300  cursor-pointer"><a href="https://asiwajuassesment.netlify.app/">View project</a></button>
+                 <button className=" p-2 rounded hover:bg-amber-300  text-black bg-blue-300  cursor-pointer"><a href="https://adeassesment.netlify.app/">View project</a></button>
                 </div>
                 {/* cart page image */}
                 <div>
