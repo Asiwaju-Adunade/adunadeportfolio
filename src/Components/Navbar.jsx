@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { link } from "react-router-dom"
 
 function Navbar() {
   const navLinks = [
@@ -25,13 +24,13 @@ function Navbar() {
         {/* DESKTOP VIEW */}
         <div className="hidden md:flex justify-center gap-10 text-black mx-auto my-7 ">
             {navLinks.map((link) => (
-            <link
+            <a
               key={link.name}
-              to={link.href}
+              href={link.href}
                  className="px-4 py-2 rounded w-20 bg-pink-400 hover:bg-white cursor-pointer"
             >
               {link.name}
-            </link>
+            </a>
           ))}
         </div>
 
@@ -40,13 +39,13 @@ function Navbar() {
         {open && (
           <div className="md:hidden flex flex-col text-black gap-4 mx-10 my-7">
             {navLinks.map((link) => (
-            <link
+            <a
               key={link.name}
-              to={link.href}
+              href={link.href}
                  className="px-4 py-2 rounded w-20 bg-pink-400 hover:bg-white cursor-pointer"
             >
               {link.name}
-            </link>
+            </a>
           ))}
           </div>
         )}

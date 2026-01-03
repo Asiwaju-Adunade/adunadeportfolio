@@ -1,4 +1,4 @@
-import './App.css'
+import "./App.css"
 import About from "./Pages/About"
 import Skills from "./Pages/Skills"
 import Projects from "./Pages/Projects"
@@ -9,10 +9,10 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 function App() {
   return (
     <>
-    <Navbar/>
      <BrowserRouter>
+     <Navbar/>
      <Routes>
-       <Route path="/" element={<About/>}/>
+       <Route path="/" element={<About/>} />
        <Route path="/skills" element={<Skills/>}/>
        <Route path="/projects" element={<Projects/>}/>
        <Route path="/contact" element={<Contact/>}/>
