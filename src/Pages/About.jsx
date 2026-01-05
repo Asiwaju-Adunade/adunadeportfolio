@@ -13,10 +13,10 @@ function About() {
        </div>
       <div className="md:flex mx-10 gap-10">
         <div>
-          <img className="my-10 rounded h-100 w-180" src="my image.jpg" alt="my image" />
+          <img className="my-10 w-300 rounded" src="my image.jpg" alt="my image" />
        </div>
 
-        <div className="my-10">
+        <div className="my-20">
         {/* second paragraph */}
         <p>
           {" "}
