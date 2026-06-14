@@ -15,15 +15,6 @@ export default function Projects() {
 
   {
     id: 2,
-    title: "Cloned Website : Chi Farms",
-    description:"This is a cloned Chi Farms Website, a Nigerian agriculture-based company.This project focuses on recreating a clean and professional agricultural business website layout.",
-    tools: ["HTML", "Tailwind CSS"],
-    image: "/svgs/website.png",
-    link: "https://adeclonedwebsite.netlify.app/",
-  },
-
-  {
-    id: 3,
     title: "Todo List App",
     description:"A responsive and user-friendly Todo List App, that allows users to manage their tasks efficiently. It is a simple but effective task management application.It enables users to add, delete and mark tasks as completed.",
     tools: ["HTML", "Tailwind CSS", "JavaScript"],
@@ -32,7 +23,7 @@ export default function Projects() {
   },
 
   {
-    id: 4,
+    id: 3,
     title: "Weather Forecasting App",
     description:"A responsive and user-friendly Weather Forecasting App, that allows users to check the weather condition of their location. It provides users with real-time weather information for their current location or any specified city and get instant results. It displays key weather details such as temperature and weather conditions.",
     tools: ["HTML", "Tailwind CSS", "JavaScript", "Open Weather API"],
@@ -41,7 +32,7 @@ export default function Projects() {
   },
 
   {
-    id: 5,
+    id: 4,
     title: "Cart Page",
     description:"A responsive Cart Page that displays list of items in the cart, and allows users to add, delete and update items in their cart.",
     tools: ["HTML", "Tailwind CSS", "JavaScript", "React.js"],
@@ -50,7 +41,7 @@ export default function Projects() {
   },
 
   {
-    id:6,
+    id:5,
     title:"A Stopwatch Web App",
     description: "This is a stopwatch web application that allows users to keep track of time. It has features like start, pause, reset and lap time.",
     tools: ["HTML", "Tailwind CSS", "JavaScript", "React.js"],
@@ -60,7 +51,7 @@ export default function Projects() {
   },
   
   {
-    id: 7,
+    id: 6,
     title: "Quiz App",
     description:"A responsive Quiz App with topic based questions.It enables users to answer questions and get instant score feedbacks with realtime countdown timers. It also secures user authentication.",
     tools: ["HTML", "Tailwind CSS", "TypeScript", "Next.js", "Firebase"],
@@ -69,7 +60,7 @@ export default function Projects() {
   },
 
   {
-    id:8,
+    id: 7,
     title: "E-commerce Website",
     description: "This is a modern and responsive E-commerce Website. It allows users to search products, view product details, add products to cart, remove products from cart, and manage their shopping experience seamlessly.",
     tools: ["HTML", "Tailwind CSS", "TypeScript", "Next.js"],
