@@ -37,8 +37,7 @@ export default function Projects() {
     description: "This is a stopwatch web application that allows users to keep track of time. It has features like start, pause, reset and lap time.",
     tools: ["HTML", "Tailwind CSS", "JavaScript", "React.js"],
     image: "/svgs/stopwatch.png",
-    link: "https://prodigy-j4g0qe813-adunades-projects.vercel.app/",
-    
+    link: "https://adestopwatch.netlify.app/",
   },
   
   {
