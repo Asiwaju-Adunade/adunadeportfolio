@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  --font-playfair: 'Playfair Display', serif;
+  --font-integral-cf: 'Integral CF', sans-serif;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./assets/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('./assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('./assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('./assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('./assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-extrabold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+:root {
+  --font-integral-cf: 'Integral CF', sans-serif;
+  --text: #6b6375;
+  --text-h: #08060d;
+  --border: #2e303a;
+  --code-bg: #1f2028;
+  --accent: #c084fc;
+  --accent-bg: rgba(192, 132, 252, 0.15);
+  --accent-border: rgba(192, 132, 252, 0.5);
+  --social-bg: rgba(47, 48, 58, 0.5);
+  --shadow: rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Playfair Display', serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: dark;
+  color: var(--text);
+  background: #1f2937; /* Matches gray-800 theme */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar for premium aesthetic */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f87171;
+}
