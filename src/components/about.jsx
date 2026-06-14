@@ -7,7 +7,7 @@ import {motion} from "framer-motion"
 export default function About() {
   return (
     <>
-    <div id="about" className=" my-15 bg-gray-800 px-6 md:px-20">
+    <div id="about" className=" my-10 bg-gray-800 px-6 md:px-20">
       <div className="text-white md:flex-row flex flex-col  ">
         
         {/* TEXT SECTION */}
@@ -22,7 +22,7 @@ export default function About() {
             FRONTEND WEB DEVELOPER
           </h1>
 
-          <h1 className="font-extrabold my-5 font-playfair text-4xl  md:text-5xl">
+          <h1 className="font-bold my-5 font-playfair text-3xl  md:text-5xl">
             Hello, my name is Adunade Asiwaju
           </h1>
 

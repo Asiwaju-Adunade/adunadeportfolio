@@ -60,7 +60,7 @@ export default function Projects() {
 ];
   return (
     <>
-    <div id="projects" className="w-full bg-gray-800 text-white py-15">
+    <div id="projects" className="w-full bg-gray-800 text-white mt-10">
       <div className="mx-auto px-6 md:px-20">
         <div className="flex items-center gap-2">
           <hr className="border-red-300 border-2 w-10" />
@@ -76,7 +76,7 @@ export default function Projects() {
            whileInView={{ y: 0, opacity: 1 }}
            transition={{ duration: 0.8, delay: index * 0.05 }}
            viewport={{once: true, amount: 0.2 }}
-           className="mb-20"
+           className="mb-10"
         >
           <div className="flex md:flex-row flex-col justify-between gap-10">
       
@@ -103,7 +103,7 @@ export default function Projects() {
              {/* view project button  */}
             <a 
              href={project.link}
-             className="bg-red-300 hover:bg-red-400 cursor-pointer text-black px-4 py-2 my-5 rounded-md inline-block font-medium transition-colors"
+             className="bg-red-300 hover:bg-red-400 cursor-pointer text-black px-4 mt-4 py-2 rounded-md inline-block font-medium transition-colors"
             >
               View Project
             </a>
