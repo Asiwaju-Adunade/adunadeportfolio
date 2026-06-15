@@ -6,42 +6,6 @@ export default function Projects() {
   const projects = [
   {
     id: 1,
-    title: "Calculator App",
-    description:"This is an interactive calculator app that perfoms basic arithmetic operation like ( addition, subtraction, multiplication and division.) It enables users to perform basic arithmetric operation, clear and reset input, input numbers and operators and get instant result.",
-    tools: ["HTML", "Tailwind CSS", "JavaScript"],
-    image: "/svgs/calculator.png",
-    link: "https://aduncalculatorapp.netlify.app/",
-  },
-
-  {
-    id: 2,
-    title: "Todo List App",
-    description:"A responsive and user-friendly Todo List App, that allows users to manage their tasks efficiently. It is a simple but effective task management application.It enables users to add, delete and mark tasks as completed.",
-    tools: ["HTML", "Tailwind CSS", "JavaScript"],
-    image: "/svgs/todoapp.png",
-    link: "https://aduntodolistapp.netlify.app/",
-  },
-
-  {
-    id: 3,
-    title: "Weather Forecasting App",
-    description:"A responsive and user-friendly Weather Forecasting App, that allows users to check the weather condition of their location. It provides users with real-time weather information for their current location or any specified city and get instant results. It displays key weather details such as temperature and weather conditions.",
-    tools: ["HTML", "Tailwind CSS", "JavaScript"],
-    image: "/svgs/weather.png",
-    link: "https://adunweatherapp.netlify.app/",
-  },
-
-  {
-    id:4,
-    title:"A Stopwatch Web App",
-    description: "This is a stopwatch web application that allows users to keep track of time. It has features like start, pause, reset and lap time.",
-    tools: ["HTML", "Tailwind CSS", "JavaScript", "React.js"],
-    image: "/svgs/stopwatch.png",
-    link: "https://adestopwatch.netlify.app/",
-  },
-  
-  {
-    id: 5,
     title: "Quiz App",
     description:"A responsive Quiz App with topic based questions.It enables users to answer questions and get instant score feedbacks with realtime countdown timers. It also secures user authentication.",
     tools: ["HTML", "Tailwind CSS", "TypeScript", "Next.js", "Firebase"],
@@ -50,7 +14,7 @@ export default function Projects() {
   },
 
   {
-    id: 6,
+    id: 2,
     title: "E-commerce Website",
     description: "This is a modern and responsive E-commerce Website. It allows users to search products, view product details, add products to cart, remove products from cart, and manage their shopping experience seamlessly.",
     tools: ["HTML", "Tailwind CSS", "TypeScript", "Next.js"],
