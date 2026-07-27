@@ -57,7 +57,7 @@ export default function About() {
             src="/svgs/my image.png"
             alt="my picture"
             width={500}
-            height={200}
+            height={300}
             className="rounded-lg"
           />
       </motion.div>
