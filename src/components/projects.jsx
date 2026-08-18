@@ -20,6 +20,15 @@ export default function Projects() {
     tools: ["HTML", "Tailwind CSS", "TypeScript", "Next.js"],
     image: "/svgs/ecommerce.png",
     link: "https://adune-commercewebsite.netlify.app/",
+  },
+
+  {
+    id:3,
+    title: "BudgetPal",
+    description:"This is a budget tracker that helps you track your income and expenses, understand where your money goes and organize your spending habits.",
+    tools: ["HTML", "Tailwind CSS", "TypeScript", "Next.js", "Firebase"],
+    image: "/svgs/budgetpalimg.png",
+    link: "https://budgetpaltracker.netlify.app/",
   }
 ];
   return (
